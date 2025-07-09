@@ -8,11 +8,4 @@ Tools ini menyediakan macam macam tools yang telah terinstall
 - Fitur 3 DDOS TOOLS 
 
 ## 📥 Install
-pkg upgrade && pkg update
-pkg install git
-pkg install bash
-pkg install curl wget
-pkg install proot
-git clone https://github.com/CyberG4n/G4nTools.git
-cd G4nTools
-chmod +x G4nTools.sh
+pkg upgrade && pkg update && pkg install git && pkg install bash && pkg install curl wget && pkg install proot && git clone https://github.com/CyberG4n/G4nTools.git && cd G4nTools && chmod +x G4nTools.sh
