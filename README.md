@@ -5,7 +5,7 @@ Tools ini menyediakan macam macam tools yang telah terinstall
 ## 🛠️ SPOILER Fitur
 - Fitur 1 SPAM TOOLS
 - Fitur 2 PHISHING TOOLS
-- Fitur 3 DDOS TOOLS TOOLS
+- Fitur 3 DDOS TOOLS 
 
 ## 📥 Install
 pkg upgrade && pkg update
