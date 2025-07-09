@@ -1,5 +1,17 @@
 #!/bin/bash
 
+# Auto-Update Script
+latest_version=$(curl -s https://raw.githubusercontent.com/CyberG4n/G4nTools/main/G4nTools.sh | md5sum | cut -d ' ' -f1)
+current_version=$(md5sum $0 | cut -d ' ' -f1)
+
+if [ "$latest_version" != "$current_version" ]; then
+    echo "[!] Update ditemukan! Download versi terbaru..."
+    curl -o $0 https://raw.githubusercontent.com/CyberG4n/G4nTools/main/G4nTools.sh
+    chmod +x $0
+    echo "[+] Berhasil update! Jalankan script lagi."
+    exit
+fi
+
 # ✅ Loading efek aesthetic
 loading_effect() {
     echo -ne "\n\e[1;36m[+] Loading"
