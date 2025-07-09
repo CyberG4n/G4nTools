@@ -13,6 +13,6 @@ pkg install git
 pkg install bash
 pkg install curl wget
 pkg install proot
-git clone https://github.com/username-elo/G4nTools.git
+git clone https://github.com/CyberG4n/G4nTools.git
 cd G4nTools
 chmod +x G4nTools.sh
