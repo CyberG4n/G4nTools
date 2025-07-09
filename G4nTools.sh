@@ -32,17 +32,17 @@ while true; do
         1)
             loading_effect
             clear
-            cd seeker
+            cd G4nTools/tools/seeker
             python3 seeker.py
             ;;
         2)
             loading_effect
-            cd spam-wa
+            cd G4nTools/tools/spam-wa
             make run
             ;;
         3)
             loading_effect
-            cd Brutal-W4
+            cd G4nTools/tools/Brutal-W4
             make run
             ;;
         4)
